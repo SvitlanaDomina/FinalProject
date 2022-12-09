@@ -1,0 +1,47 @@
+:root {
+    --white: #FDFDFD;
+    --black: #000000;
+    --royalblue: #4169E1;
+    --mistyblue: #ADB3BC;
+    --gold: #FFD700;
+    --hotpink: #FF69B4;
+    --champagne: #EBE0D0;
+
+}
+body {
+    background: var(--bg);
+    color: var(--fontcolor);
+    font-family: monospace;
+}
+ul {
+    font-family: monospace;
+}
+li {
+    list-style: circle;
+}
+#msg {
+    font-family: monospace;
+}
+.light-theme {
+    --fontcolor: #FDFDFD;
+    --bg: hotpink;
+    --btnBg: var(--mistyblue);
+    --btnfontcolor: var(--hotpink);
+}
+.dark-theme {
+    --bg: royalblue;
+    --fontcolor: white;
+    --btnBg: var(--mistyblue);
+    --btnfontcolor: var(--royalblue);
+}
+.btn {
+    position;
+    bottom: 20px;
+    right: 250px;
+    height: 50px;
+    width: 50px;
+    border: 50%
+    border: none;
+    color: var(--btnfontcolor);
+    background-color: var(--btnBg);
+}
