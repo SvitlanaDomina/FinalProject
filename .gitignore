@@ -1,0 +1,14 @@
+print ('Enter your name:')
+a = str (input())
+
+print (a + (', Enter your height (in m):'))
+height = float (input())
+print (a + (', Enter your weight:'))
+weight = int (input())
+
+bmi = weight / (height * height)
+print ('Your body mass index: ' + str(bmi))
+if bmi < 25:
+    print (a + (", you have a normal weight"))
+else:
+    print (a + ', you have overweight')
